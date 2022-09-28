@@ -1,0 +1,23 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Global_LocalVar</title>
+    </head>
+    <body>
+        <script>
+            var data=200;//global variable declaration
+            function a(){
+                document.write("Global Variable => ");
+                document.writeln(data);
+            }
+            function b(){
+                vardata=50;//local variable declaration
+                document.write("<br>");
+                document.write("Local Variable => ");
+                document.writeln(data);
+                }
+                a();//calling JavaScript function 
+                b();
+                </script>
+                </body>
+</html>
